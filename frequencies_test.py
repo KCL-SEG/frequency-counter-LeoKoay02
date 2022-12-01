@@ -6,6 +6,7 @@ from frequencies import frequencies
 def test_mixed_list():
     input = ['0', 4,4,'4','d','d','e',0,'a','d','4']
     output = frequencies(input)
+    
     assert output['4'] == 4
     assert output['d'] == 3
     assert output['e'] == 1
